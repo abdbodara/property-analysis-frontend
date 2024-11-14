@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.predict{
+   width: 300px;
+   margin: 100px auto;
+   display: flex;
+   flex-direction: column;
+   padding: 20px;
+   background-color: rgba(99, 138, 153, 0.486);
+   border-radius: 10px;
+   
+}
+.predict h2{
+  color: rgb(22, 62, 100);
+}
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.main h1{
+  color: rgb(13, 65, 95);
+  margin-top: 40px;
+}
+
+.predictForm{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.predictForm input{
+  padding: 14px;
+  border-radius: 7px;
+  border: none;
+}
+
+.predictForm button{
+  padding: 14px;
+  border: none;
+  border-radius: 7px;
+  background-color: rgba(40, 87, 105, 0.568);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+
+.predictForm button:hover{
+  background-color: rgba(40, 87, 105, 0.863);
+}
+
+.predict h3{
+  color: rgb(22, 62, 100);
+}
+.predict h3 span{
+  color: rgb(0, 3, 5);
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.model h1{
+  font-size: 20px;
+}
+.dataTable{
+  width: 750px;
+  margin: 40px auto;
+  overflow: hidden;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+
+}
+.dataTable thead,.dataTable2 thead,.dataTable3 thead{
+  background-color: rgba(23, 113, 151, 0.74);
+  color: rgb(5, 22, 39);
+  overflow: hidden;
+  
+}
+.dataTable thead tr th ,.dataTable2 thead tr th, .dataTable3 thead tr th{
+  padding: 15px ;
+  font-size: 18px;
+}
+.dataTable tbody tr td,.dataTable2 tbody tr td,.dataTable3 tbody tr td{
+  padding: 12px;
+}
+
+.imageDiv h2{
+  color: rgb(22, 62, 100);
+}
+.imageDiv {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: max-content;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+.dataTable2{
+
+  
+  margin: 40px auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+.dataTable3{
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
